@@ -1,2 +1,289 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web lap</title>
+        <meta charset="utf-8">
+        <style>
+          body,h1,h2,h3,h4,h5,h6,p,a {font-family: "Raleway", sans-serif
+        }
+
+        div.a {
+          text-align: center;
+        }
+        
+        div.b {
+          text-align: left;
+        }
+
+        div.c {
+          text-align: right;
+        }
+
+        .container_swap{
+
+          width: 800px;
+
+        }
+
+        .div_left{
+
+          
+
+          float: left;
+
+          text-align: center;
+
+        }
+
+        .div_center{
+
+          float: center;
+          text-align: center;
+        }
+
+        .div_right{
+
+          
+
+          float: right;
+
+          text-align: center;
+
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <nav class="header__navbar">
+                    
+                          
+                            <a href="#home" class="header__navbar-item-link">LOGO</a>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
+                            
+                        
+                            <a href="#about" class="header__navbar-item-link">ABOUT</a>
+                            &emsp;
+                        
+                        
+                            <a href="#team" class="header__navbar-item-link">TEAM</a>
+                            &emsp;
+                            <a href="#work" class="header__navbar-item-link">WORK</a>
+                            &emsp;
+                            <a href="#pricing" class="header__navbar-item-link">PRICING</a>
+                            &emsp;
+                            <a href="#contact" class="header__navbar-item-link">CONTACT</a>
+                        
+                    
+                    <h1>Start something that matters</h1>
+                    <h3>Stop wasting valuable time with projects that just isn't you.</h3>
+                    <a href="#learnmore" class="container-link">Learn more and start today.</a>
+                </nav>
+            </header>
+
+            <div class="container">
+              <div class = "a">
+                <h3 class="a" >ABOUT THE COMPANY</h3>
+              </div>
+                <p>Key features of our company</p>
+                <div class="container-quarter">
+                    <p>Responsive</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="container-quarter">
+                    <p>Passion</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="container-quarter">
+                    <p>Design</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="container-quarter">
+                    <p>Support</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+
+                <h4>We know design.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+<p><a href="#work" class="container-link">View Our Works</a></p>
+
+                <div class = "a">
+                 <h3>THE TEAM</h3>
+                </div>
+                <p>The ones who runs this company</p>
+
+                <div>
+                  
+                    <div class="container-quarter">
+                        <h3>John Doe</h3>
+                        <p>CEO &amp; Founder</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><a href=#John class="container-link">CONTACT</a> </p>
+                    </div>
+                  
+                  
+                    <div class="container-quarter">
+                        <h3>Anja Doe</h3>
+                        <p>Art Director</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><a href=#Anja class="container-link">CONTACT</a> </p>
+                    </div>
+                  
+                    <div class="container-quarter">
+                        <h3>Mike Ross</h3>
+                        <p>Web Designer</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><a href=#John class="container-link">CONTACT</a> </p>
+                    </div>
+                  
+                    <div class="container-quarter">
+                        <h3>Dan Star</h3>
+                        <p>Designer</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><a href=#John class="container-link">CONTACT</a> </p>
+                    </div>
+                  
+                    <div class="container-quarter">
+                        <span>14+</span>
+                        <br>Partners
+                    </div>
+                  
+                    <div class="container-quarter">
+                      <span">55+</span>
+                        <br>Projects Done
+                    </div>
+                  
+                    <div class="container-quarter">
+                        <span>89+</span>
+                        <br>Happy Clients
+                    </div>
+                  
+                    <div class="container-quarter">
+                        <span>150+</span>
+                        <br>Meetings
+                    </div>
+                  
+                </div>
+                <div class = "a">
+                 <h3>OUR WORK</h3>
+                </div>
+                <p>What we've done for people</p>
+
+              <div>
+                
+                    
+                  <div>
+                    <img src="https://www.w3schools.com/w3images/tech_mic.jpg" alt="A microphone">
+                  
+                    <img src="https://www.w3schools.com/w3images/tech_phone.jpg" alt="A phone">
+                    
+                    <img src="https://www.w3schools.com/w3images/tech_drone.jpg" alt="A drone">
+                    <img src="https://www.w3schools.com/w3images/tech_sound.jpg" alt="Soundbox">
+                  </div>  
+                  <div>
+                    <img src="https://www.w3schools.com/w3images/tech_tablet.jpg" alt="A tablet">
+                    
+                    <img src="https://www.w3schools.com/w3images/tech_camera.jpg" alt="A camera">
+                
+                    <img src="https://www.w3schools.com/w3images/tech_typewriter.jpg" alt="A typywriter">
+                
+                    <img src="https://www.w3schools.com/w3images/tech_tableturner.jpg" alt="A tableturner">
+                  </div>
+                
+              </div>
+              
+              <div>
+                <div class="b">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="c">
+                    <p>Photography: 90%</p>
+                    
+                
+                    <p>Web Design: 85%</p>
+                    
+                
+                    <p>Photoshop: 75%</p>
+                    
+                </div>
+              </div>
+             
+              <div class="a">
+                 <h3>PRICING</h3>
+              </div>
+                <p>Choose a pricing plan that fits your needs.</p>
+                
+                
+                <div  > 
+                  <div class="div_left">
+
+                    
+                        <a>Basic</a>
+                        <br><b>10GB</b> Storage</br>
+                        <br><b>10</b> Emails</br>
+                        <br><b>10</b> Domains</br>
+                        <br><b>Endless</b> Support</br>
+                        <h2>$ 10</h2>
+                        <span>per month</span>
+                        <button>Sign Up</button>
+                    
+                  </div>
+                  <div class="div_center"> 
+                    
+                        <a>Pro</a>
+                        <br><b>25GB</b> Storage</br>
+                        <br><b>25</b> Emails</br>
+                        <br><b>25</b> Domains</br>
+                        <br><b>Endless</b> Support</br>
+                        <h2>$ 25</h2>
+                        <span>per month</span>
+                        <button>Sign Up</button>
+                    
+                  </div>
+                  <div class="div_right"> 
+                    
+                        <a>Premium</a>
+                        <br><b>50GB</b> Storage</br>
+                        <br><b>50</b> Emails</br>
+                        <br><b>50</b> Domains</br>
+                        <br><b>Endless</b> Support</br>
+                        <h2>$ 50</h2>
+                        <span>per month</span>
+                        <button>Sign Up</button>
+                    
+                  </div>
+                </div>
+                  
+                
+                <div class="a">
+                 <h3>CONTACT</h3>
+                </div>
+                <p>Lets get in touch. Send us a message:</p>
+                <div style="margin-top:48px">
+                    <p>Chicago, US</p>
+                    <p>Phone: +00 151515</p>
+                    <p>Email: mail@mail.com</p>
+
+                    <form  target="_blank">
+                        <p><input type="text" placeholder="Name" required="" name="Name"></p>
+                        <p><input type="text" placeholder="Email" required="" name="Email"></p>
+                        <p><input type="text" placeholder="Subject" required="" name="Subject"></p>
+<p><input type="text" placeholder="Message" required="" name="Message"></p>
+                        <p>
+                          <button type="submit">SEND MESSAGE</button>
+                        </p>
+                    </form>
+                    <img src="https://www.w3schools.com/w3images/map.jpg">
+            </div>
+            <footer class="footer">
+                <a href="#home" class="footer">To the top</a>
+            </footer>
+        </div>
+    </body>
+</html>
